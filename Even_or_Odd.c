@@ -1,14 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int n;
+    int i,n;
     scanf("%d",&n);
-    if(n%2==0)
+    for(i=2;i<=n;i++)
     {
-        printf("Even");
-    }
-    else
-    {
-        printf("Odd");
+        if(n%i==0)
+        {
+            printf("Even");
+        }
+        else
+        {
+            printf("Odd");
+        }
+        break;
     }
 }
