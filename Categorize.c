@@ -7,11 +7,11 @@ int main()
     {
         printf("The person is Dwarf.");
     }
-    else if(x>105&&x<165)
+    else if(x>150&&x<=165)
     {
         printf("The person is average heighted.");
     }
-    else if(x>165&&x<195)
+    else if(x>165&&x<=195)
     {
         printf("The person is taller.");
     }
